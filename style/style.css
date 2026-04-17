@@ -3,6 +3,9 @@
   color: #334155;
   transition: 0.2s;
 }
+.my-nav {
+  color: #9d56fe;
+}
 
 ul a {
   text-decoration: none;
@@ -31,13 +34,7 @@ ul a:hover {
 }
 
 /* dropdown */
-.dropdown-menu {
-  display: none;
-}
 
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
 .text-gray-400 {
   color: #99a1af;
 }
@@ -124,7 +121,6 @@ ul a:hover {
 
 .service-card:hover {
   border-color: #ddd6fe;
-  transform: translateY(-2px);
 }
 
 /* inner padding */
@@ -256,6 +252,9 @@ ul a:hover {
   position: relative;
   padding: 120px 0 60px;
 }
+.hero-section .container .container-form {
+  border-radius: 12px;
+}
 
 .hero-overlay {
   position: absolute;
@@ -278,6 +277,22 @@ ul a:hover {
 .form-select:focus {
   border-color: #7c3aed;
   box-shadow: 0 0 0 0.2rem rgba(124, 58, 237, 0.25);
+}
+.search-btn {
+  background-color: #9810fa;
+  color: white;
+}
+.search-btn:hover {
+  background-color: #7e00dd;
+  color: white;
+}
+.schedule-btn {
+  background-color: #ede9fe;
+  color: #7f22fe;
+}
+.schedule-btn:hover {
+  background-color: #ddd6ff;
+  color: #7f22fe;
 }
 
 /* section line (MERGED - removed duplicate) */
@@ -517,3 +532,82 @@ ul a:hover {
   background-color: #432dd7;
   color: white;
 }
+
+/***** Testimonials *****/
+.bg-purpule {
+  background-color: #501797;
+}
+
+.my-carousel .carousel-card {
+  border-radius: 12px;
+}
+.carousel-card .text-yellow {
+  color: #ffb900;
+}
+
+.footer .agent-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 3px solid black;
+}
+
+.my-carousel .span-icon {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #ffffff69;
+  color: white;
+}
+.btn-indic {
+  margin-bottom: 8px;
+  bottom: -65px;
+}
+.btn-indic button {
+  height: 12px !important;
+  width: 12px !important;
+  border-radius: 50%;
+}
+
+/***** End Testimonials *****/
+
+/***** FAQ *****/
+.w-65 {
+  width: 65%;
+}
+.my-accordion {
+  border-radius: 15px;
+  padding: 7px;
+  border: 0px;
+  box-shadow: 1px 1px 1px 2px #d9dadb;
+}
+.my-accordion:last-of-type,
+.my-accordion:first-of-type {
+  border-bottom-right-radius: none !important;
+  border-bottom-left-radius: none !important;
+  border-top-left-radius: none !important;
+  border-top-right-radius: none !important;
+  border-radius: 15px;
+  padding: 7px;
+  border: 0px;
+  box-shadow: 1px 1px 1px 2px #d9dadb;
+}
+.accordion-item:not(:first-of-type) {
+  border-radius: 15px;
+}
+.accordion-item {
+  /* border: 0; */
+}
+.acc-head button:not(.collapsed) {
+  color: black;
+  background-color: white;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  border-color: white !important;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+  background-image: url(../image/imgi_15_default.svg);
+}
+/***** End FAQ *****/
